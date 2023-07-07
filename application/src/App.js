@@ -3,12 +3,14 @@ import PortfolioContainer from "./components/PortfolioContainer";
 //import logo from './components/logo.svg';
 import "./components/App.css";
 import Footer from "./components/Footer";
+import Header from "./components/Header";
 
 const App = () => {
     return (
         <div className="App">
-             <PortfolioContainer />
-             <Footer/>
+            <Header/>
+            <PortfolioContainer />
+            <Footer/>
         </div>
     )
 }

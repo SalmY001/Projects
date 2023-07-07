@@ -33,7 +33,7 @@ class Footer extends React.Component {
         return (
             <footer className='FooterLogos'>
                 <div>
-                    <FontAwesomeIcon icon={["fab", "GitHub"]} size="2x" />
+                    <FontAwesomeIcon icon={["faGithub"]} size="2x" />
                     <FontAwesomeIcon icon={["fab", "LinkedIn"]} size="2x" />
                 </div>
             

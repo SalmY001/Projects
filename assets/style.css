@@ -1,0 +1,227 @@
+header {
+    padding: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    background-color: #2a7c62;
+    color: beige;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    margin-top: 5%;
+}
+
+/*Apply styling to navigation section*/
+nav {
+    display: flex;
+    background-color: #7fd882;
+    color:rgb(7, 7, 49);
+    padding: 5px;
+    justify-content: left;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav a {
+    color: #13293d;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+/*Apply background color*/
+body{
+    background-color:rgb(189, 209, 224);
+}
+
+.photo {
+    padding: 30px;
+    margin: 5px;
+
+}
+
+.sectionFormats {
+    padding-top: 10px;
+    margin: 10px;
+    text-decoration: none;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    display: -webkit-inline-flex;
+}
+
+.sectionSize {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: auto;
+}
+
+
+/*Apply image boxes and styling*/
+.aboutMeImages {
+    flex: 2;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 100%;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.grid-container {
+    display: grid;
+    /*grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));*/
+    grid-template-columns: repeat(4, minmax(30%, 1fr));
+    /*grid-template-columns: repeat(4, auto);*/
+    /*grid-auto-rows: minmax(35%, auto);*/
+    gap: 8%;
+    width: 40vw;
+    /*justify-content: space-between;*/
+}
+
+.imageOcto {
+    background-color: aquamarine;
+    height: 85%;
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    flex: 0 0 50%;
+    box-shadow: 10px 10px 5px green;
+    border-radius: 30px;
+}
+
+.imageGuide {
+    background-color: aquamarine;
+    height: 75%;
+    width:65%;
+    padding: 10px;
+    margin: 10px;
+    flex: 0 0 50%;
+    box-shadow: 10px 10px 5px green;
+    border-radius: 30px;
+}
+
+.project1, .password-generator, .readme-generator, .object-orientated-programming,
+.project2
+{
+    background-color: aquamarine;
+    height: 85%;
+    width:90%;
+    padding: 10px;
+    margin-bottom: 5px;
+    flex: 0 0 50%;
+    box-shadow: 10px 10px 5px green;
+    border-radius: 30px;
+}
+
+.imageOcto header {
+    padding: 20px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.imageOcto img {
+    width: 100%;
+}
+
+.imageGuide header {
+    padding: 10px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imageGuide img {
+    width: 100%;
+}
+
+.project1 header, .password-generator header, .readme-generator header, .object-orientated-programming header,
+.project2 header
+{
+    padding: 20px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    /*column-gap: 50px;*/
+}
+
+.project1 img, .password-generator img, .readme-generator img, .object-orientated-programming img,
+.project2 img
+{
+    width: 100%;
+}
+
+.sectionLinks {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: left;
+    width: 20%;
+    height: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/*Apply styling to main section*/
+.mainContent {
+    /*display: flex;*/
+    width: 100%;
+    /*flex: wrap;*/
+    margin-left: 5px;
+    padding: 30px;
+}
+
+.h3 {
+    background-color: grey;
+    column-rule-style: solid;
+}
+
+header, p, a, h3 {
+    font-size: 1.5vw;
+}
+
+.sectionContact {
+
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+div.contactDetails {
+    text-align: center;
+}
+
+.listings {
+    display: inline-block;
+    text-align: left;
+    font-size: 1.5vw;
+}
+
+/* Screen size for laptop*/
+@media only screen and (min-width: 992px) {
+    .main {
+      flex-direction: column;
+      background-color: red;
+    }
+}
+
+/* Screen size for tablet*/
+@media only screen and (min-width: 600px) {
+    .main {
+      flex-direction: column;
+      background-color: yellow;
+      width: 100%;
+    }
+}
+
+/* Screen size for mobile*/
+@media only screen and (max-width:550px) {
+    .main {
+        flex-direction: column;
+        background-color: brown;
+        width: 100%;
+    }
+}

@@ -1,9 +1,5 @@
 import React from 'react';
-//import { v9 as uuidv9 } from 'uuid';
-//import ReactDOM from 'react-dom';
-
-// const skills = ['HTML', 'CSS', 'JavaScript', 'React', 'MongoDB', 'Express.js', 'Node.js',
-// 'SQL', 'Jest', 'GitHub'];
+import ResumeDoc from '../ResumeDoc.pdf';
 
 export default function Resume() {
   const skills = [
@@ -24,7 +20,16 @@ export default function Resume() {
        <div align="left">
         <h2>Resume</h2>
         <p>
-          Skills obtained:
+          My resume can be downloaded here: <a 
+          href={ResumeDoc}
+          download="Resume"
+          target="_blank"
+          rel="noreferrer"
+          >
+           Resume Document
+           </a><br></br>
+          <br></br>
+          Skills obtained are also listed below:
         </p>
         <div className="">
           <ul>
@@ -37,34 +42,6 @@ export default function Resume() {
     </section>
   )
 }
-//   const item = props.item;
-//   return (
-//     <li>{item}</li>
-//   );
-// }
 
-// function skillsList(props) {
-
-// }
-    // const resumeSkills = props.skills;
-    // const updatedSkills = resumeSkills.map((resumeSkillsItems) => {
-    //   return (
-    //     <li key={resumeSkillsItems}>
-    //       {resumeSkillsItems}
-    //     </li>
-    //   );
-    // });
-
-    // return (
-    //   <ul>
-    //     {updatedSkills}
-    //   </ul>
-    // );
-    // <div>
-    //   <h2>Resume</h2>
-    //   <p>
-    //     <li>{skills}</li>
-    //   </p>
-    // </div>
 
 

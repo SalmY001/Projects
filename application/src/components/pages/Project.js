@@ -1,5 +1,6 @@
 import React from 'react';
 import { projects } from "../ProjectsData";
+//import {View} from 'react';
 
 export default function Project() {
   return (
@@ -13,7 +14,7 @@ export default function Project() {
       <div className="project__img">
         {projects.map((project) => (
           <a href={project.link}
-          key={project.image}>
+          key={project.id}>
             <div className="">
               <img className="" src={project.image} alt="gallery"/>
               <h3 className="">

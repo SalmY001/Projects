@@ -1,15 +1,15 @@
 import React from 'react';
 import { projects } from "../ProjectsData";
-//import {View} from 'react';
+//import { View } from 'react';
 
 export default function Project() {
   return (
     <section id="Projects">
       <div>
         <h2>Projects Page</h2>
-        <p>
+        <h3 align="center">
           Portfolio of projects 
-        </p>
+        </h3>
       </div>
       <div className="project__img">
         {projects.map((project) => (
@@ -17,12 +17,12 @@ export default function Project() {
           key={project.id}>
             <div className="">
               <img className="" src={project.image} alt="gallery"/>
-              <h3 className="">
+              <p className="">
                 {project.title}
-              </h3>
-              <h4 className="">
+              </p>
+              <p className="">
                 {project.subtitle}
-              </h4>
+              </p>
             </div>
           </a>
         ))}

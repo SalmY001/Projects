@@ -4,20 +4,23 @@ import React from 'react';
 export default function Contact() {
   return (
   <div className="container">
-  <h1>Contact</h1>
+  <h2>Contact</h2>
   <form target="_blank" action="" method="">
     <div className="form-group">
       <div className="form-row">
         <div className="col">
+          <p>Name:</p>
           <input type="text" name="name" className="form-control" placeholder="Full Name" required/>
         </div>
         <div className="col">
+          <p>Email:</p>
           <input type="email" name="email" className="form-control" placeholder="Email Address" required/>
         </div>
+        <div className="col">
+          <p>Message:</p>
+          <textarea placeholder="Your Message" className="form-control" name="message" rows="15" required></textarea>
+        </div>
       </div>
-    </div>
-    <div className="form-group">
-      <textarea placeholder="Your Message" className="form-control" name="message" rows="15" required></textarea>
     </div>
     <button type="submit" className="btn btn-lg btn-dark btn-block">Submit Form</button>
   </form>

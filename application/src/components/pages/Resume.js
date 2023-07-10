@@ -16,8 +16,8 @@ export default function Resume() {
   ];
 
   return (
-    <section id="Resume">
-       <div align="left">
+    //<section id="Resume">//
+       <div>
         <h2>Resume</h2>
         <p>
           My resume can be downloaded here: <a 
@@ -39,7 +39,7 @@ export default function Resume() {
           </ul>
         </div>
       </div>
-    </section>
+   // </section>//
   )
 }
 

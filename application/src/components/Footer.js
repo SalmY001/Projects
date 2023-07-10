@@ -1,25 +1,26 @@
 import React from 'react';
+//import SimpleReactFooter from 'simple-react-footer';
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+//import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-const FooterLogos = [
+const FooterLinks = [
     {
         title: "GitHub",
         url: "https://github.com/SalmY001",
         className: "footer-links",
-        icon: <FontAwesomeIcon icon={["fa-brands fa-github"]} size="2x" />
+        //icon: <FontAwesomeIcon icon={["fa-brands fa-github"]} size="2x" />
     },
     {
     title: "LinkedIn",
     url: "https://linkedin.com/in/yvonne-s-2a12446b",
     className: "footer-links",
-    icon: <FontAwesomeIcon icon={["fab", "linkedin"]} size="2x" />
+    //icon: <FontAwesomeIcon icon={["fab", "linkedin"]} size="2x" />
     },
-    {
-    title: "View",
-    url: "/View",
-    className: "footer-links"
-    }
+    // {
+    // title: "View",
+    // url: "/View",
+    // className: "footer-links"
+    // }
 ];
 
 class Footer extends React.Component {
@@ -31,26 +32,26 @@ class Footer extends React.Component {
 
     render() {
         return (
-            <footer className='FooterLogos'>
-                <div>
+            <footer className='FooterLinks'>
+                {/* <div>
                     <FontAwesomeIcon icon={["faGithub"]} size="2x" />
                     <FontAwesomeIcon icon={["fab", "LinkedIn"]} size="2x" />
-                </div>
+                </div> */}
             
-                <ul
+                <div
                 className={this.state.clicked ? "footer-menu active" : "footer-menu"}
                 >
-                    {FooterLogos.map((item, index) => {
+                    {FooterLinks.map((item, index) => {
                         return (
-                            <li key={index}>
+                            <div key={index}>
                                 <a className={item.className} href={item.url}>
                                     {item.title}
                                     {item.icon}
                                 </a>
-                            </li>
+                            </div>
                         );
                     })}
-                </ul>
+                </div>
             </footer>
         );
     }

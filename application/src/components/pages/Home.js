@@ -9,8 +9,8 @@ export default function Home() {
       />
       <p>
         Hi, my name is Yvonne and I am learning skills in web development.  My current location is the United Kingdom.<br></br>
-        To view the projects I have been working on click into the Projects section.<br></br>
-        Also a list of skills I have learned so far are displayed in the resume section.
+        To view the projects I have been working on click into the Portfolio section.<br></br>
+        Also a list of skills I have learned so far are displayed in the Resume section.
       </p>
     </div>
   );

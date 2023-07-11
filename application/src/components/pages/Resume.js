@@ -1,6 +1,7 @@
 import React from 'react';
 import ResumeDoc from '../ResumeDoc.pdf';
 
+// Create a link to a downloadable resume and display skills on Resume page
 export default function Resume() {
   const skills = [
     { id: 1, skill: 'HTML'},
@@ -12,11 +13,10 @@ export default function Resume() {
     { id: 7, skill: 'Node.js'},
     { id: 8, skill: 'SQL'},
     { id: 9, skill: 'Jest'},
-    { id: 9, skill: 'GitHub'},
+    { id: 10, skill: 'GitHub'},
   ];
 
   return (
-    //<section id="Resume">//
        <div className="container about">
         <h2>Resume</h2>
         <p>
@@ -39,7 +39,6 @@ export default function Resume() {
           </ul>
         </div>
       </div>
-   // </section>//
   )
 }
 

@@ -1,4 +1,4 @@
-// Store individual projects in the portfolio
+// Create links for individual projects in the portfolio
 
 export const projects = [
     {   

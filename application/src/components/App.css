@@ -59,26 +59,18 @@ h1 {
   text-align: center;
 }
 
-/* h2 {
-  padding: 0.5%;
-} */
-
 p {
   font-size: large;
   padding: 0.5rem;
 }
 
 .FooterLinks {
-  /* margin-top: 50px !important; */
   margin-left: 10px;
-  /* margin-right: 10px; */
   padding: 10px;
-/* background-color: rgb(235, 195, 64); */
   position: fixed;
   bottom: 0;
   left: 20px;
   width:75%;
-  /* background-color:rgb(191, 191, 112); */
 }
 
 .col {
@@ -89,7 +81,6 @@ p {
 .container, .Projects {
   background-color:rgb(191, 191, 112);
   width: 100%;
-  /* margin-bottom: 50px; */
 }
 
 .about {

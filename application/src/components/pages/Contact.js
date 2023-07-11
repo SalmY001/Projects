@@ -1,6 +1,6 @@
 import React from 'react';
-// import ReactDOM from 'react-dom/client';
 
+// Create contact form
 export default function Contact() {
   return (
   <div className="container about contact" style={{marginBottom:"100px"}}>

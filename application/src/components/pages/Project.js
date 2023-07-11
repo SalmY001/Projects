@@ -1,7 +1,7 @@
 import React from 'react';
 import { projects } from "../ProjectsData";
-//import { View } from 'react';
 
+// Display projects on Projects page
 export default function Project() {
   return (
     <section className="Projects about">

@@ -8,7 +8,7 @@ import Resume from './pages/Resume';
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('Home');
 
-  // TODO: Add a comment describing the functionality of this method
+  // Method renders the correct page on the app from the pages source
   const renderPage = () => {
     if (currentPage === 'Home') {
       return <Home />;
@@ -25,10 +25,9 @@ export default function PortfolioContainer() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div>
-      {/* // TODO: Add a comment describing what we are passing as props */}
+    // Render the correct page when a tab is clicked.  Links to NavTabs component.
+    <div> 
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
-      {/* // TODO: Add a comment explaining what is happening on the following line */}
       {renderPage()}
     </div>
   );

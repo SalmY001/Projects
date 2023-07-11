@@ -21,6 +21,10 @@ To install the required dependencies, run the following commands:
 
 npm install, npx create-react-app
 
+To start the application use the command:
+
+npm start
+
 ## Usage
 
 Following is an image of the application and the deployed link:

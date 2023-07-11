@@ -27,6 +27,8 @@ Following is an image of the application and the deployed link:
 
 ![Alt text](application/public/images/Screenshot.jpg)
 
+https://salmy001.github.io/projects/
+
 ## License
 
 This project is under the GPL license:

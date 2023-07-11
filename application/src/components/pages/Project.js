@@ -4,7 +4,7 @@ import { projects } from "../ProjectsData";
 
 export default function Project() {
   return (
-    <section id="Projects">
+    <section className="Projects about">
       <div>
         <h2>Projects Page</h2>
         <h3 align="center">

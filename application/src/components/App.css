@@ -1,6 +1,7 @@
 .App {
   text-align: left;
   margin: 1.5rem;
+  margin-bottom: 100px;
   font-family: sans-serif;
 }
 
@@ -58,26 +59,62 @@ h1 {
   text-align: center;
 }
 
-h2 {
+/* h2 {
   padding: 0.5%;
-}
+} */
 
 p {
   font-size: large;
   padding: 0.5rem;
 }
 
-#Footer {
-  margin-top: 1rem;
-  padding: 1rem;
-  background-color: rgb(235, 195, 64);
-  position: absolute;
+.FooterLinks {
+  /* margin-top: 50px !important; */
+  margin-left: 10px;
+  /* margin-right: 10px; */
+  padding: 10px;
+/* background-color: rgb(235, 195, 64); */
+  position: fixed;
   bottom: 0;
-  left: 0;
-  width: 100%;
+  left: 20px;
+  width:75%;
+  /* background-color:rgb(191, 191, 112); */
 }
 
 .col {
   padding: 0.5rem;
   color: black;
+}
+
+.container, .Projects {
+  background-color:rgb(191, 191, 112);
+  width: 100%;
+  /* margin-bottom: 50px; */
+}
+
+.about {
+  margin: 0 !important;
+}
+
+.contact {
+  padding-bottom: 20px;
+  margin-bottom: 200px;
+}
+
+.project__img {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 5%;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+
+}
+
+.footer-menu {
+  display: flex;
+  column-gap: 10px;
+  justify-content: center;
+
 }

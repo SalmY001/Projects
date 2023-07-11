@@ -3,7 +3,7 @@ import React from 'react';
 
 export default function Contact() {
   return (
-  <div className="container">
+  <div className="container about contact" style={{marginBottom:"100px"}}>
   <h2>Contact</h2>
   <form target="_blank" action="" method="">
     <div className="form-group">

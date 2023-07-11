@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Home() {
   return (
-    <div>
+    <div className="container about">
       <h2>About Me</h2>
       <img src={require('../Avatar.png')} alt="avatar"
       />

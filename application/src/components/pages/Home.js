@@ -1,10 +1,10 @@
 import React from 'react';
 
-// Create home page
+// Create home page - About Me
 export default function Home() {
   return (
     <div className="container about">
-      <h2>About Me</h2>
+      <h2>Profile</h2>
       <img src={require('../Avatar.png')} alt="avatar"
       />
       <p>

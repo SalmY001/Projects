@@ -30,7 +30,7 @@ npm start
 
 Following is an image of the application and the deployed link:
 
-![Alt text](application/public/images/Screenshot.jpg)
+![Alt text](public/images/Screenshot.jpg)
 
 https://salmy001.github.io/projects/
 
@@ -50,6 +50,8 @@ https://react.dev/
 https://www.npmjs.com/package/gh-pages
 
 https://getbootstrap.com/docs/4.0/getting-started/webpack/
+
+https://github.com/gitname/react-gh-pages
 
 ## Questions
 

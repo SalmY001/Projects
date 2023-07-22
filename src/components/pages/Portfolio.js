@@ -16,7 +16,7 @@ export default function Portfolio() {
           <a href={project.link}
           key={project.id}>
             <div className="">
-              <img className="" src={project.image} alt="gallery"/>
+              <img src={project.image} alt="gallery"/>
               <p className="">
                 {project.title}
               </p>

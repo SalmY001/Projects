@@ -6,7 +6,7 @@ export const projects = [
         title: "Project 1",
         subtitle: "HTML, CSS, API",
         image: "./images/film1.jpg",
-        link: "https://leesaal.github.io/TheMovieMatrix/",
+        link: "https://github.com/Leesaal/TheMovieMatrix",
     },
     {   
         id: 2,
@@ -20,7 +20,7 @@ export const projects = [
         title: "Project 2",
         subtitle: "Sequelize, Express.js, Bcrypt",
         image: "./images/SafekeepingLogo.png",
-        link: "https://github.com/SalmY001/password-generator",
+        link: "https://github.com/Jake-Orch/Project2",
     },
     {   
         id: 4,

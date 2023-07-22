@@ -19,7 +19,8 @@ Create a React application that displays a portfolio of projects to showcase ski
 
 To install the required dependencies, run the following commands:
 
-npm install, npx create-react-app
+npm install, npx create-react-app, npm install gh-pages,
+npm install bootstrap
 
 To start the application use the command:
 
@@ -45,6 +46,10 @@ Please refer to license in the repo.
 Sources viewed to help in the development of the app include:
 
 https://react.dev/
+
+https://www.npmjs.com/package/gh-pages
+
+https://getbootstrap.com/docs/4.0/getting-started/webpack/
 
 ## Questions
 

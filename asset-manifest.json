@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.ef4f6c15.css",
-    "main.js": "/react-portfolio/static/js/main.10b1876d.js",
-    "static/js/787.98651143.chunk.js": "/react-portfolio/static/js/787.98651143.chunk.js",
-    "static/media/ResumeDoc.pdf": "/react-portfolio/static/media/ResumeDoc.0ec10f1cac9e400c9722.pdf",
-    "static/media/Avatar.png": "/react-portfolio/static/media/Avatar.235e730acfe1a8c00c8c.png",
-    "index.html": "/react-portfolio/index.html",
-    "main.ef4f6c15.css.map": "/react-portfolio/static/css/main.ef4f6c15.css.map",
-    "main.10b1876d.js.map": "/react-portfolio/static/js/main.10b1876d.js.map",
-    "787.98651143.chunk.js.map": "/react-portfolio/static/js/787.98651143.chunk.js.map"
+    "main.css": "/projects/static/css/main.ef4f6c15.css",
+    "main.js": "/projects/static/js/main.fba24962.js",
+    "static/js/787.98651143.chunk.js": "/projects/static/js/787.98651143.chunk.js",
+    "static/media/ResumeDoc.pdf": "/projects/static/media/ResumeDoc.0ec10f1cac9e400c9722.pdf",
+    "static/media/Avatar.png": "/projects/static/media/Avatar.235e730acfe1a8c00c8c.png",
+    "index.html": "/projects/index.html",
+    "main.ef4f6c15.css.map": "/projects/static/css/main.ef4f6c15.css.map",
+    "main.fba24962.js.map": "/projects/static/js/main.fba24962.js.map",
+    "787.98651143.chunk.js.map": "/projects/static/js/787.98651143.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ef4f6c15.css",
-    "static/js/main.10b1876d.js"
+    "static/js/main.fba24962.js"
   ]
 }

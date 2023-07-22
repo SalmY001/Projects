@@ -32,7 +32,7 @@ Following is an image of the application and the deployed link:
 
 ![Alt text](public/images/Screenshot.jpg)
 
-https://salmy001.github.io/projects/
+https://salmy001.github.io/react-portfolio/
 
 ## License
 

@@ -23,7 +23,7 @@ export default function Contact() {
         </div>
       </div>
     </div>
-    <Button className="buttonSize">Submit Form</Button>
+    <Button className="buttonSize">Submit</Button>
   </form>
   </div>
   )};

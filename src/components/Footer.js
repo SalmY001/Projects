@@ -1,14 +1,15 @@
 import React from 'react';
+import { SiGithub, SiLinkedin } from "react-icons/si";
 
 // Create a footer to display on all pages in the app
 const FooterLinks = [
     {
-        title: "GitHub",
+        title: <SiGithub size={50} color="black"/>,
         url: "https://github.com/SalmY001",
         className: "footer-links",
     },
     {
-    title: "LinkedIn",
+    title: <SiLinkedin size={50} color="darkblue"/>,
     url: "https://linkedin.com/in/yvonne-s-2a12446b",
     className: "footer-links",
     },

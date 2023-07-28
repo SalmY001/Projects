@@ -20,7 +20,7 @@ Create a React application that displays a portfolio of projects to showcase ski
 To install the required dependencies, run the following commands:
 
 npm install, npx create-react-app, npm install gh-pages,
-npm install bootstrap
+npm install bootstrap, npm install react-icons
 
 To start the application use the command:
 
@@ -47,11 +47,19 @@ Sources viewed to help in the development of the app include:
 
 https://react.dev/
 
+https://reactnative.dev/docs/colors
+
 https://www.npmjs.com/package/gh-pages
 
 https://getbootstrap.com/docs/4.0/getting-started/webpack/
 
 https://github.com/gitname/react-gh-pages
+
+https://react-icons.github.io/react-icons/icons?name=si
+
+https://stackoverflow.com/questions/43768629/how-to-scale-large-font-awesome-icons-from-the-react-icons-package
+
+https://stackoverflow.com/questions/39857425/react-page-keep-footer-at-the-bottom-of-the-page
 
 ## Questions
 

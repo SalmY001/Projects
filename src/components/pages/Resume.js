@@ -25,6 +25,7 @@ export default function Resume() {
           download="Resume"
           target="_blank"
           rel="noreferrer"
+          className="h6"
           >
            Resume Document
            </a><br></br>

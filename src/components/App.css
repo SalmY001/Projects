@@ -1,7 +1,6 @@
 .App {
   text-align: left;
   margin: 1.5rem;
-  margin-bottom: 100px;
   font-family: sans-serif;
 }
 
@@ -17,15 +16,18 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #7ea24d;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: 20px;
   color: white;
-  margin: 1rem;
+  padding: 0.5rem;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
 }
 
 .App-link {
@@ -65,12 +67,12 @@ p {
 }
 
 .FooterLinks {
-  margin-left: 10px;
-  padding: 10px;
-  position: fixed;
+  padding: 1rem;
+  position: absolute;
   bottom: 0;
-  left: 20px;
-  width:75%;
+  left: 0;
+  right: 0;
+  background-color:white;
 }
 
 .col {
@@ -80,16 +82,11 @@ p {
 
 .container, .Projects {
   background-color:rgb(191, 191, 112);
-  width: 100%;
+  padding-bottom: 5rem;
 }
 
 .about {
   margin: 0 !important;
-}
-
-.contact {
-  padding-bottom: 20px;
-  margin-bottom: 200px;
 }
 
 .project__img {
@@ -108,4 +105,12 @@ p {
   column-gap: 10px;
   justify-content: center;
 
+}
+
+.buttonSize {
+  margin-left: 8px;
+}
+
+.bg-secondary {
+  margin: 0.5rem;
 }

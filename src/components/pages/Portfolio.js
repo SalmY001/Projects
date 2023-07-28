@@ -17,10 +17,10 @@ export default function Portfolio() {
           key={project.id}>
             <div className="">
               <img src={project.image} alt="gallery"/>
-              <p className="">
+              <p className="mb-2 bg-secondary text-dark">
                 {project.title}
               </p>
-              <p className="">
+              <p className="h6">
                 {project.subtitle}
               </p>
             </div>

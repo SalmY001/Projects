@@ -1,9 +1,10 @@
 import React from 'react';
+import Button from 'react-bootstrap/Button'
 
 // Create contact form
 export default function Contact() {
   return (
-  <div className="container about contact" style={{marginBottom:"100px"}}>
+  <div className="container about" style={{marginBottom:"100px"}}>
   <h2>Contact</h2>
   <form target="_blank" action="" method="">
     <div className="form-group">
@@ -22,7 +23,7 @@ export default function Contact() {
         </div>
       </div>
     </div>
-    <button type="submit" className="btn btn-lg btn-dark btn-block">Submit Form</button>
+    <Button className="buttonSize">Submit Form</Button>
   </form>
   </div>
   )};
